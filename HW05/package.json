@@ -1,0 +1,28 @@
+{
+  "name": "homework05-seoeunhong",
+  "version": "1.0.0",
+  "description": "Site where users can anonymously post reviews for courses",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0467-001-002-spring-2022/homework05-seoeunHong.git"
+  },
+  "author": "Seoeun Hong <sh6248@nyu.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0467-001-002-spring-2022/homework05-seoeunHong/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0467-001-002-spring-2022/homework05-seoeunHong#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

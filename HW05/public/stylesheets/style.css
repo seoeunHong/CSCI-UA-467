@@ -1,0 +1,146 @@
+body {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color: #231709;
+}
+
+header h1 {
+  color: whitesmoke;
+  font-size: 60px;
+  font-weight: bold;
+}
+header span {
+  color: cadetblue;
+  font-size: 60px;
+  font-weight: bold;
+}
+header h3 {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sidebar {
+  position: fixed;
+  top: 200px;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: #042331;
+}
+
+.sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.about-session {
+  position: absolute;
+  top: 65%;
+  margin-left: 20px;
+  margin-right: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+#content {
+  position: fixed;
+  top: 200px;
+  left: 200px;
+  height: 100%;
+  overflow: visible;
+}
+
+.title {
+  font-display: center;
+  width: 100%;
+}
+
+.anotherContainer {
+  position: fixed;
+  top: 300px;
+  left: 300px;
+  height: auto;
+  width: 40%;
+  margin: auto;
+}
+#formC {
+  width: 100%;
+}
+.rows {
+  width: 100%;
+  display: block;
+}
+.column {
+  width: 100%;
+  display: inline-block;
+}
+.theLabels {
+  width: 30%;
+  float: left;
+}
+.theInputs {
+  width: 60%;
+  float: right;
+}
+
+.title {
+  position: fixed;
+  top: 230px;
+  left: 700px;
+  width: 100%;
+  font-display: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.search {
+  width: 300%;
+}
+
+.courseReviews {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 180%;
+  margin-top: 30px;
+  position: absolute;
+}
+
+.courseReviews td,
+.courseReviews th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.courseReviews tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.courseReviews tr:hover {
+  background-color: #ddd;
+}
+
+.courseReviews th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #042331;
+  color: white;
+}

@@ -1,0 +1,44 @@
+<div class="title">
+  <soan>ALL THE REVIEWS</soan>
+</div>
+<div class="anotherContainer">
+  <div class="search">
+    <form method="GET">
+      <label for="semester-select">Semesters: </label>
+      <select name="semester" id="semester-select">
+        <option value="">All</option>
+        <option value="Spring">Spring</option>
+        <option value="Summer">Summer</option>
+        <option value="Fall">Fall</option>
+        <option value="Winter">Winter</option>
+      </select>
+      <label for="year-select">Year: </label>
+      <input id="year-select" type="number" , name="year" />
+      <label for="professor-select">Professor: </label>
+      <input id="professor-select" type="text" , name="professor" />
+      <input value="filter" type="submit" />
+    </form>
+  </div>
+  <div>
+    <table class="courseReviews">
+      <tr>
+        <th>Course Number</th>
+        <th>Course Name</th>
+        <th>Semester</th>
+        <th>Year</th>
+        <th>Professor</th>
+        <th>Review</th>
+      </tr>
+      {{#each reviews}}
+        <tr>
+          <td>{{courseNumber}}</td>
+          <td>{{courseName}}</td>
+          <td>{{semester}}</td>
+          <td>{{year}}</td>
+          <td>{{professor}}</td>
+          <td>{{review}}</td>
+        </tr>
+      {{/each}}
+    </table>
+  </div>
+</div>
