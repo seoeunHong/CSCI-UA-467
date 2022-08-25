@@ -1,0 +1,34 @@
+<form class="search" method="GET" action="">
+  <input
+    class="search-box"
+    type="text"
+    name="emotion"
+    placeholder="Search your emotion here!"
+  />
+  <input class="button" type="submit" />
+</form>
+
+<table>
+  {{#each kaomojiData as |Kaomoji|}}
+    <tr>
+      <td>{{Kaomoji.value}}</td>
+      <td>{{Kaomoji.emotions}}</td>
+    </tr>
+  {{/each}}
+</table>
+
+<form class="add" method="POST" action="">
+  <input
+    class="add-box"
+    type="text"
+    name="value"
+    placeholder="Enter the value..."
+  />
+  <input
+    class="add-box"
+    type="text"
+    name="emotions"
+    placeholder="Enter emotions..."
+  />
+  <input class="button" type="submit" />
+</form>
